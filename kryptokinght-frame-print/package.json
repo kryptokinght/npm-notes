@@ -1,0 +1,11 @@
+{
+  "name": "kryptokinght-frame-print",
+  "version": "1.0.0",
+  "description": "A tutorial package as a part of pluralsight course by Sameer Buna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kryptokinght",
+  "license": "ISC"
+}
