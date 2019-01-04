@@ -21,6 +21,8 @@ What the different properties inside the **package.json** mean - [package.json](
 
 ### Installing, Uninstalling, Updating packages
 
+When an npm package is installed locally, it is installed by default with the ^(carrot) sign in the **package.json** file. This means running `npm update <package_name>` will update the package to its latest _minor version_(1.x.0).
+
 **Install**
 * `npm i npm@latest -g` : Install the latest version of npm(updating npm)
 * `npm i <package_name>@1.8.0` : Install a specific version of the package
@@ -44,7 +46,9 @@ What the different properties inside the **package.json** mean - [package.json](
 * [**NOTE** : After updating the tag using npm, you have to perform the following two commands to first push your tag to your github repo and second to update your file changes `git push --tags`, `git push`]  
 * `npm publish` : Publish the new version of your packages to npm registry. It is recommended to update your package version before publishing it.
 
-### Publishing an npm package to npmjs.com
+## Publishing an npm package to npmjs.com
+
+Before publishing your package make sure you are logged in your npm account inside your terminal. `npm login`
 
 * [Contributing packages to the registry](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry) - the official guide to publishing packages to the npm registry.
 
